@@ -1,0 +1,24 @@
+== ddd_architect
+
+ddd_architect is a command line tool which creates a Rails 3 Engine with Rakefile, Gemfile and a ready to run test suite on top of a vendored Rails application.
+
+ddd_architect was created for the purpose of and used in José Valim's book: Crafting Rails Applications available at http://plataformatec.com.br/crafting-rails-applications .
+
+== Use with 3.0 Only
+
+ddd_architect is only available for Rails 3.0. *For Rails 3.1 onwards, ddd_architect was ported to Rails as `rails plugin new` by Piotr Sarnacki.*
+
+== Usage
+
+  $ ddd_architect ENGINE_NAME
+
+Give --help to see supported options.
+
+== Bugs and Feedback
+
+If you discover any bugs, feel free to send me a message or create an issue on GitHub tracker:
+
+http://github.com/josevalim
+http://github.com/josevalim/ddd_architect/issues
+
+MIT License. Copyright 2010 José Valim. http://blog.plataformatec.com.br
