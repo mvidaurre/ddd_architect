@@ -32,7 +32,7 @@ class DddArchitect < Thor::Group
   
   desc "Creates a Rails 3 engine with Rakefile, Gemfile and running tests."
 
-  say_step "Creating gem skeleton"
+  say_step "Creating business gem skeleton"
 
   def create_root
     self.destination_root = File.expand_path(path, destination_root)
